@@ -26,8 +26,8 @@ class OpenFile {
       return OpenResult(
           type: _result == 0 ? ResultType.done : ResultType.error,
           message: _result == 0
-              ? "done"
-              : "there are some errors when open $filePath");
+              ? "retour"
+              : "il y a eu des erreurs à l'ouverture de $filePath");
     }
 
     Map<String, String> map = {"file_path": filePath, "type": type, "uti": uti};

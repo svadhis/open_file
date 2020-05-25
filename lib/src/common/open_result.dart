@@ -2,7 +2,7 @@ class OpenResult {
   ResultType type;
   String message;
 
-  OpenResult({this.type = ResultType.done, this.message = "done"});
+  OpenResult({this.type = ResultType.done, this.message = "retour"});
 
   OpenResult.fromJson(Map<String, dynamic> json)
       : message = json['message'],
